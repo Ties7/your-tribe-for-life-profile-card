@@ -1,0 +1,27 @@
+/* Fonts */
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Cavino */
+@font-face {
+  font-family: "Calvino";
+  src: url("/my-app/static/fonts/Calvino-Grande-Light-trial.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    --primary-background: #ffffff;
+    --secondary-background: #000000;
+    --primary-text: #000000;
+    --secondary-text: #ffffff;
+    color: var(--primary-text);
+    font-family: "Calvino", sans-serif;
+}
