@@ -1,6 +1,9 @@
 export async function load({ url }) {
-    const membersResponse = await fetch('https://fdnd.directus.app/items/person?fields=*,squads.squad_id.name,squads.squad_id.cohort,squads.squad_id.tribe.name&filter[squads][squad_id][cohort][_eq]=2526&sort=-name')
+    const membersResponse = await fetch(
+        "https://fdnd.directus.app/items/person?fields=*,squads.squad_id.name,squads.squad_id.cohort,squads.squad_id.tribe.name&filter[squads][squad_id][cohort][_eq]=2526&filter[squads][squad_id][tribe][name][_eq]=FDND%20Jaar%202&filter[name][_eq]=Ties%20Beeftink"
+    );
+
     const membersData = await membersResponse.json();
 
-    return {members: membersData.data};
+    return { members: membersData.data };
 }
