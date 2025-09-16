@@ -1,9 +1,7 @@
 <script>
     let { data } = $props();
 
-    console.log(data);
-
+    const member = data.members[0];
 </script>
 
-<h1>Welcome to Ties</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>{member.name}</h1>
