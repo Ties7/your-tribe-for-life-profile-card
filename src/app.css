@@ -4,10 +4,10 @@
 
 /* Cavino */
 @font-face {
-  font-family: "Calvino";
-  src: url("/my-app/static/fonts/Calvino-Grande-Light-trial.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Calvino";
+    src: url("/fonts/Calvino-Grande-Light-trial.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
 }
 
 * {
@@ -23,5 +23,5 @@ body {
     --primary-text: #000000;
     --secondary-text: #ffffff;
     color: var(--primary-text);
-    font-family: "Calvino", sans-serif;
+    font-family: "inter", sans-serif;
 }
