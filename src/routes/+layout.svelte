@@ -1,4 +1,5 @@
 <script>
+	import '$lib/css/app.css';
 	import favicon from '$lib/assets/favicon.svg';
     import texture from '$lib/assets/texture.svg';
 

@@ -1,8 +1,6 @@
 <script>
     let { data } = $props();
-
     const member = data.members[0];
-    import texture from '$lib/assets/texture.svg';
 </script>
 
 <!-- <h1>{member.name}</h1> -->
